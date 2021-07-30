@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "fogyeet",
+  "version": "${version}",
+
+  "name": "FogYeet",
+  "description": "There is no mod to remove fog that doesn't also include other things, so i made my own",
+  "authors": [
+    "SRAZKVT!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/SRAZKVT/fogyeet"
+  },
+
+  "license": "MIT License",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+  },
+  "mixins": [
+    "fogyeet.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "minecraft": "1.15.x"
+  }
+}
